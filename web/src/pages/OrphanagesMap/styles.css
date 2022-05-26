@@ -62,7 +62,30 @@
   transition: background-color 0.2s;
 }
 
+#page-map .back-page {
+  position: absolute;
+  right: 1430px;
+  bottom: 40px;
+
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: #FFD600;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
 #page-map .create-orphanage:hover {
+  background: #37C77F;
+}
+
+#page-map .back-page:hover {
   background: #37C77F;
 }
 
