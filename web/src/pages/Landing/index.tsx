@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiArrowRight } from 'react-icons/fi'
+import { FiArrowRight, FiSearch, FiMap, FiMapPin } from 'react-icons/fi'
 
 import './styles.css'
 import logoImg from '../../images/logoeco.svg'
@@ -24,7 +24,11 @@ const Landing: React.FC = () => {
       </div>
 
       <Link to="app" className="enter-app">
-        <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
+        <FiMap size={26} color="rgba(0, 0, 0, 0.6)" />
+      </Link>
+
+      <Link to="news" className="enter-news">
+        <FiSearch size={26} color="rgba(0, 0, 0, 0.6)" />
       </Link>
     </div>
    </div>

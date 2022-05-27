@@ -74,6 +74,27 @@
   transition: background-color 0.2s;
 }
 
+.content-wrapper .enter-news {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+
+  width: 80px;
+  height: 80px;
+  background: #ffd666;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+}
+
 .content-wrapper .enter-app:hover {
+  background: #37C77F;
+}
+
+.content-wrapper .enter-news:hover {
   background: #37C77F;
 }
