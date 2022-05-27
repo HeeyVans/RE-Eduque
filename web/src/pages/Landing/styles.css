@@ -21,10 +21,9 @@
   flex-direction: column;
   justify-content: space-between;
 
-  background: url('../../images/imgPrincipal.svg') no-repeat 240% center;
-  background-position-y: 4cm;
-  background-size: contain;
-  
+  background: url('../../images/imgPrincipal.png') no-repeat 200% center;
+  background-position-y: 2cm;
+  background-size: contain; 
 }
 
 #page-landing .content-wrapper main {
