@@ -1,0 +1,25 @@
+.container-noticiais {
+    margin: 50px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: 0.6s ease-in-out;
+    padding: 0 10px;
+    background: #37C77F;
+    height: 100px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.container-header h1 {
+    margin: auto; 
+}
+
+.container-left {
+    display: -webkit-box;
+    background-color: blue;
+    width: 50%;
+}
