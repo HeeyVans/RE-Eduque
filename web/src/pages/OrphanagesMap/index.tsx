@@ -38,8 +38,6 @@ const OrphanagesMap: React.FC = () => {
           <p>O meio ambiente está esperando sua ajuda!</p>
         </header>
 
-        <img src={mapMarkerImg} alt=""/>
-
         <footer>
           <strong>Recife</strong>
           <span>Pernambuco</span>

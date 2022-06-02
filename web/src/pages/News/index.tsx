@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './styles.css';
 import NewsList from './NewsList';
 import { Link } from "react-router-dom";
-import btnInicio from '../../images/btnInicio.png'
+import { FiArrowLeft } from "react-icons/fi";
 
 function News() {
 
@@ -22,15 +22,15 @@ function News() {
         <div className='container-noticiais'>
             <div className='container-header'>
                 <div>
-                    <Link to="/">
-                        <img src={btnInicio} alt="logo" width='50px'/>
-                    </Link>
+                    <Link to="/" className="back-page">
+                        <FiArrowLeft size={32} color="#fff" />
+                 </Link>
                 </div>
                 <h1>Notícias</h1>
             </div>
             <NewsList />
-        </div>
-
+    </div>
+        
     )
 }
 
