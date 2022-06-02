@@ -1,0 +1,28 @@
+.container-news {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-app {
+    display: flex;
+    padding: 25px;
+}
+
+.news-item {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.news-item p {
+    color: black;
+    text-align: center;
+}
+
+.news-img {
+    width: 400px;
+}
